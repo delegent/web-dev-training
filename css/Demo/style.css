@@ -1,0 +1,162 @@
+/* Style the text  */
+/* cCSS Classes */
+/* we are the ones who defines the css classes
+Why ? 
+1. To select the same as many elements
+  */
+
+/* body{
+	margin: 0;
+} */
+
+
+.main-heading{
+background-color: rgb(233, 229, 229);
+	color: rgb(246, 62, 29);	
+	text-align:left;
+	/* padding: 24px;  */
+	/* this adds the padding all the four sides
+	  */
+	  /* padding-top: 12px;
+	  padding-left: 23px;
+	  padding-bottom: 45px;
+	  padding-right: 50px; */
+	  /* padding: 12px 50px 45px 23px; 
+	  shorthand property of giving the padding 
+	  direction - 1st -> top , 2nd -> right , 3rd -> bottom , 4th -> left  */
+	  /* padding:12px 34px; */
+	  /* same goes itslef for the margin  */
+      /* width: 500px;
+	  height: 400px; */
+	 
+	  text-align: center;
+	  /* font-style:italic; */
+	  font-size: 50px;
+	  font-weight: 400;
+	  /* text-decoration:overline; */
+	  font-family: 'Bonheur Royale', cursive;
+	  text-transform: capitalize;
+     
+}
+.body-heading{
+	background-color: rgb(233, 229, 229);
+	color: rgb(4, 0, 230);	
+	text-align: center;
+	  /* font-style:italic; */
+	  font-size: 30px;
+	  font-weight: 400;
+	  /* text-decoration:overline; */
+	  font-family: 'Bonheur Royale', cursive;
+	  text-transform: capitalize;
+}
+p{
+	background-color: rgb(227, 242, 255);
+	color: rgb(4, 4, 160);
+	text-align: justify;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	line-height: 1.4;
+}
+/* to acces the class we use ".Class-Name" , */
+/* i.e., this '.' is called period selector. */
+
+ /* .odd{
+	 background-color: aqua;
+ }
+ .even{
+	 background-color: #abff9d;
+ }
+
+#para{
+	background-color: orangered;
+} */
+
+/* fonts: 
+1. Serif Fonts -> Georgia  
+2. sans-Serif Fonts  */
+
+/* styling the borders */
+.border-demo{
+	width: 300px;
+	height: 300px;
+	background-color: rgb(147, 243, 243);
+	/* border-style: solid; 
+	border-width: 4px;
+	border-color: grey; */
+	/* border-top-style: solid;
+	border-bottom-style: dashed;
+	border-left-style: ridge;
+	border-right-style:dotted ; */
+	/* border: style widht color; */
+	 border: solid 4px grey;
+	/*border-top: dotted 5px blue; */
+	/* border-radius: 50%; */
+	border-radius: 10px;
+}
+
+
+/* learning styling the lists */
+.list-container{
+	background-color: rgb(204, 255, 255);
+}
+.ordered-list{
+	list-style-type:upper-alpha;
+	list-style-type: lower-alpha;
+	list-style-type: upper-roman;
+	list-style-type: lower-roman;
+	list-style-type: none;
+}
+.un-ordered-list{
+	list-style-type:square;
+	list-style-type: none;
+	padding-left: 0;
+
+}
+.un-ordered-list > li{
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.links-container
+{
+	padding: 30px;
+	margin: 40px 0;
+}
+.links-container > .links{
+     font-size: 20px;
+	 margin-right: 20px;
+	 text-decoration: none;
+	
+}
+
+/* pseudo clases in the links */
+/* :link
+:visited
+:hover
+:active */
+.links-container > .links:link{
+	color: black;
+}
+.links-container > .links:hover{
+	color: rgb(53, 31, 15);
+	text-decoration: underline;
+}
+.links-container > .links:visited
+{
+	color: mediumvioletred;
+	
+}
+.links-container > .links:active{
+	color: aqua;
+}
+
+
+
+
+
+
+

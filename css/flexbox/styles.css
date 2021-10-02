@@ -1,0 +1,30 @@
+.container{
+	background-color: skyblue;
+	padding: 2rem;
+	margin-top:100px;
+	display: flex;
+	/* flex-direction:column-reverse; */
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+/* 1 rem -> 16px */
+.item{
+	color: #fff;
+	background-color: #111;
+	padding: 40px;
+	margin:10px;
+}
+
+/* block and inline elements 
+block elements - > whole width o fthe documnet
+inline elements - > who used to take their original width itself */
+
+
+
+
+
+
+
